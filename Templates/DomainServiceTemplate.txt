@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace :nameSpace
+{
+    public class DomainService:nomeEntity : DomainServiceBase<:nomeEntity>, IDomainService:nomeEntity
+    {
+
+        //private readonly IRepository:nomeEntity repository;                                    
+
+        public DomainService:nomeEntity() //: base(repository)
+        {
+            //this.repository = repository;
+        }
+        
+    }
+}

@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace :nameSpace
+{
+    public class AppService:nomeEntity : AppServiceBase<:nomeEntity>, IAppService:nomeEntity
+    {
+        
+        //private readonly IDomainService:nomeEntity domain;
+
+        public AppService:nomeEntity() //: base(domain)
+        {
+            //this.domain = domain;
+        }
+        
+    }
+}

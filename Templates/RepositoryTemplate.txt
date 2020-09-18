@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace :nameSpace
+{
+    public class Repository:nomeEntity : RepositoryBase<:nomeEntity>, IRepository:nomeEntity
+    {
+        
+        //private readonly DataContext _dbContext;
+        
+        public Repository:nomeEntity() //: base(dbContext)
+        {
+            //_dbContext = dbContext;
+        }
+        
+    }
+}
